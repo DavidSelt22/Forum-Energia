@@ -115,6 +115,35 @@ $(document).ready(function () {
     }, 2000);
 });
 
+       $("#f").click(function () {
+   
+    $('html,body').animate({
+        scrollTop: $(".cont-fotos").offset().top
+    }, 2000);
+});
+    $("#fd").click(function () {
+   
+    $('html,body').animate({
+        scrollTop: $(".cont-fotos").offset().top
+    }, 2000);
+});
+    $("#v").click(function () {
+   
+    $('html,body').animate({
+        scrollTop: $(".cont-videos").offset().top
+    }, 2000);
+});
+    $("#vd").click(function () {
+   
+    $('html,body').animate({
+        scrollTop: $(".cont-videos").offset().top
+    }, 2000);
+});
+
+
+
+
+
 
 
 
@@ -152,7 +181,13 @@ $(document).ready(function () {
        $("#exit").click(function(){
         $("#popvideo").fadeOut();
        });
-
+       
+       $(".v1").click(function(){
+        $("#popvideo").fadeIn();
+       });
+       $("#exit2").click(function(){
+        $("#popvideo").fadeOut();
+       });
 
 
 
