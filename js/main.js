@@ -14,11 +14,11 @@ $(document).ready(function () {
 
         $('header').css({ });
         flag = true;
-        $('#logotipo').css({ "height": "60px" });
+        $('#logotipo').css({ "height": "65px" });
         flag = true;
-        $('.logo').css({ "height": "60px" });
+        $('.logo').css({ "height": "65px" });
         flag = true;
-        $('header label').css({ "margin-top": "18px" });
+        $('header label').css({ "margin-top": "13px" });
         flag = true;
         $('.menu-despleg').css({ "top": "60px" });
         flag = true;
@@ -37,7 +37,7 @@ $(document).ready(function () {
         flag = false;
         $('.logo').css({ "height": "70px" });
         flag = false;
-        $('header label').css({ "margin-top": "30px" });
+        $('header label').css({ "margin-top": "17px" });
         flag = false;
         $('.menu-despleg').css({ "top": "75px" });
         flag = false;
@@ -136,6 +136,23 @@ $(document).ready(function () {
   }
               
 });
+
+
+        $(".f1").click(function(){
+        $("#popfoto").fadeIn();
+       });
+       $("#exit").click(function(){
+        $("#popfoto").fadeOut();
+       });
+
+
+       $(".v1").click(function(){
+        $("#popvideo").fadeIn();
+       });
+       $("#exit").click(function(){
+        $("#popvideo").fadeOut();
+       });
+
 
 
 
