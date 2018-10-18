@@ -142,6 +142,23 @@ $(document).ready(function () {
 
 
 
+    $("#agenda").click(function () {
+   
+    $('html,body').animate({
+        scrollTop: $(".programa").offset().top
+    }, 2000);
+});
+
+
+
+    $("#exposit").click(function () {
+   
+    $('html,body').animate({
+        scrollTop: $(".exposit").offset().top
+    }, 2000);
+});
+
+
 
 
 

@@ -351,7 +351,7 @@ header label{
  justify-content: center;
  margin-bottom: 5%;
 }
-.boton{
+.boton,.botonlink{
 	background-color:#000;
 	border: 2px solid #45af4a;
 	margin:0px 20px;
@@ -374,6 +374,23 @@ header label{
 	color:#fff;
 	padding:2px 10px;
 	cursor:pointer;
+	text-decoration: none;
+
+}
+.botonlink {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	text-decoration: none;
+	color:#fff;
+	padding:2px 10px;
+	cursor:pointer;
+}
+.botonlink:hover{
+	background-color:#45af4a;
+	border: 2px solid #000;
+	color: #fff;
+	text-decoration: none;
 }
 
 .contlugar{
@@ -437,6 +454,7 @@ header label{
 	flex-wrap: wrap;
 	justify-content: center;
 	margin:auto;
+	padding: 20px 0px;
 
 
 }
@@ -505,7 +523,7 @@ header label{
 	 width: 100%;
     position: relative;
     text-align: center;
-    margin-top:15%;
+    margin-bottom:5%;
     /*border: 2px solid red;*/
 } 
 .accordion-titulo2 h1{
@@ -606,6 +624,7 @@ header label{
 }
 .persona img{
 	border-radius: 50%;
+	border:1px solid #fff;
 	filter: grayscale(100%);
 	width: 160px;
 	height: 160px;
@@ -1143,9 +1162,86 @@ header label{
 	display: none;
 
 }
+Invitación personal, sin cargo e intransferible. Cupos limitados.
+
+
+
 
 
 .edic-ant-despleg:hover .submenud{
    display: block;
 }
+
+/*----------------------------------REGISTRO------------------------------*/
+.titregist{
+	border-bottom: 1px solid #808080;
+}
+.titregist h1{
+    width: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	color:#45af4a;
+	padding:.5% 0%;
+	/*border: 2px solid #333;*/
+
+}
+.logocent{
+	padding: 2% 0%;
+}
+.intlogocent{
+	width: 110px;
+	height: 110px;
+	background-image: url("../img/logoc.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin:auto;
+
+	
+}
+
+ 
+form .row{
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+.filas input {
+	font-family: 'Titillium+Web', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	
+	
+}
+form .row .filas .submit{
+	width: 100%;
+	text-align: left;
+	padding: 5.5px 12px;
+	border-radius: 5px;
+	background-color: #45af4a;
+	border:1px solid #c4c6c5;
+	cursor: pointer;
+	color: #fff;
+	font-family: 'Titillium+Web', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	opacity: 1;
+}
+
+form .row .filas .submit:hover{
+	opacity: .8;
+	transition: all .5s;
+}
+
+@media(max-width: 414px){
+	form{margin-top: 3%;}
+	form .row{margin: 0px;}
+	.filas{
+       margin-bottom: 2%;
+	   margin-top: 2%;
+	 }
+}
+
 
