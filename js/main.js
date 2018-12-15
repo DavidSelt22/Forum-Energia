@@ -87,57 +87,77 @@ $(document).ready(function () {
 
   });
 
-  $("#button-menu").click(function () { $(".menu-despleg").toggleClass('menu-visible') });
+  // $("#button-menu").click(function () { $(".menu-despleg").toggleClass('menu-visible') });
+
 
    $("#p").click(function () {
    
     $('html,body').animate({
         scrollTop: $(".programa").offset().top
-    }, 2000);
+    }, 1800);
 });
     $("#exp").click(function () {
    
     $('html,body').animate({
         scrollTop: $(".exposit").offset().top
-    }, 2000);
+    }, 1800);
 });
 
   $("#p2").click(function () {
    
     $('html,body').animate({
         scrollTop: $(".programa").offset().top
-    }, 2000);
+    }, 1800);
 });
+   
+   $("#p2").click(function () {
+      
+      if($("#p2")==$(".programa")){$(".menu-despleg").toggleClass('menu-invisible')}
+        else{$(".menu-despleg").toggleClass('menu-visible')}
+       
+    });
+
+
+
+
     $("#exp2").click(function () {
    
     $('html,body').animate({
         scrollTop: $(".exposit").offset().top
-    }, 2000);
+    }, 1800);
 });
 
-       $("#f").click(function () {
+     $("#exp2").click(function () {
+      
+      if($("#p2")==$(".exposit")){$(".menu-despleg").toggleClass('menu-invisible')}
+        else{$(".menu-despleg").toggleClass('menu-visible')}
+       
+    });
+
+
+    $("#f").click(function () {
    
     $('html,body').animate({
         scrollTop: $(".cont-fotos").offset().top
-    }, 2000);
-});
+    }, 1800);
+   });
     $("#fd").click(function () {
    
     $('html,body').animate({
         scrollTop: $(".cont-fotos").offset().top
-    }, 2000);
+    }, 1800);
 });
     $("#v").click(function () {
    
     $('html,body').animate({
         scrollTop: $(".cont-videos").offset().top
-    }, 2000);
+    }, 1800);
 });
     $("#vd").click(function () {
    
     $('html,body').animate({
         scrollTop: $(".cont-videos").offset().top
-    }, 2000);
+    }, 1800);
 });
 
 
@@ -160,7 +180,7 @@ $(document).ready(function () {
 
 
 
-
+ $("#button-menu").click(function () { $(".menu-despleg").toggleClass('menu-visible') });
 
 
 
@@ -205,6 +225,170 @@ $(document).ready(function () {
        $("#exit2").click(function(){
         $("#popvideo").fadeOut();
        });
+
+
+
+   
+
+
+
+    
+
+    //   $("#mostrar").click(function(event){
+   
+    //     event.preventDefault();
+    //     $("#oculto").show("1000");
+     
+    // });
+
+    // $("#mostrar").click(function () { $("#contenidotexto").addClass('#mostrarcontenido') });
+
+
+    //  $("#mostrar").click(function () {
+      
+    //   if($("#contenidotexto")==$("#contenidotexto")){$(".#contenidotexto").toggleClass('#mostrarcontenido')}
+    //     else{$("#contenidotexto").toggleClass('#mostrarcontenido')}
+       
+    // });
+
+
+
+ $("#mostrar").click(function(){
+   $(".contenidotexto").addClass("mostrarcontenido");
+ });
+
+ $("#ocultar").click(function(event){
+  $(".contenidotexto").removeClass("mostrarcontenido");
+     
+ });
+
+ $("#mostrar1").click(function(){
+   $(".contenidotexto1").addClass("mostrarcontenido");
+ });
+
+ $("#ocultar1").click(function(event){
+  $(".contenidotexto1").removeClass("mostrarcontenido");
+     
+ });
+ $("#mostrar2").click(function(){
+   $(".contenidotexto2").addClass("mostrarcontenido2");
+ });
+
+ $("#ocultar2").click(function(event){
+  $(".contenidotexto2").removeClass("mostrarcontenido2");
+     
+ });
+ $("#mostrar3").click(function(){
+   $(".contenidotexto3").addClass("mostrarcontenido");
+ });
+
+ $("#ocultar3").click(function(event){
+  $(".contenidotexto3").removeClass("mostrarcontenido");
+     
+ });
+ $("#mostrar4").click(function(){
+   $(".contenidotexto4").addClass("mostrarcontenido");
+ });
+
+ $("#ocultar4").click(function(event){
+  $(".contenidotexto4").removeClass("mostrarcontenido");
+     
+ });
+ $("#mostrar5").click(function(){
+   $(".contenidotexto5").addClass("mostrarcontenido");
+ });
+
+ $("#ocultar5").click(function(event){
+  $(".contenidotexto5").removeClass("mostrarcontenido");
+     
+ });
+ $("#mostrar6").click(function(){
+   $(".contenidotexto6").addClass("mostrarcontenido");
+ });
+
+ $("#ocultar6").click(function(event){
+  $(".contenidotexto6").removeClass("mostrarcontenido");
+     
+ });
+ $("#mostrar7").click(function(){
+   $(".contenidotexto7").addClass("mostrarcontenido");
+ });
+
+ $("#ocultar7").click(function(event){
+  $(".contenidotexto7").removeClass("mostrarcontenido");
+     
+ });
+ $("#mostrar8").click(function(){
+   $(".contenidotexto8").addClass("mostrarcontenido");
+ });
+
+ $("#ocultar8").click(function(event){
+  $(".contenidotexto8").removeClass("mostrarcontenido");
+     
+ });
+ $("#mostrar9").click(function(){
+   $(".contenidotexto9").addClass("mostrarcontenido");
+ });
+
+ $("#ocultar9").click(function(event){
+  $(".contenidotexto9").removeClass("mostrarcontenido");
+     
+ });
+ $("#mostrar10").click(function(){
+   $(".contenidotexto10").addClass("mostrarcontenido");
+ });
+
+ $("#ocultar10").click(function(event){
+  $(".contenidotexto10").removeClass("mostrarcontenido");
+     
+ });
+ $("#mostrar11").click(function(){
+   $(".contenidotexto11").addClass("mostrarcontenido");
+ });
+
+ $("#ocultar11").click(function(event){
+  $(".contenidotexto11").removeClass("mostrarcontenido");
+     
+ });
+ $("#mostrar12").click(function(){
+   $(".contenidotexto12").addClass("mostrarcontenido");
+ });
+
+ $("#ocultar12").click(function(event){
+  $(".contenidotexto12").removeClass("mostrarcontenido");
+     
+ });
+ $("#mostrar13").click(function(){
+   $(".contenidotexto13").addClass("mostrarcontenido");
+ });
+
+ $("#ocultar13").click(function(event){
+  $(".contenidotexto13").removeClass("mostrarcontenido");
+     
+ });
+ $("#mostrar14").click(function(){
+   $(".contenidotexto14").addClass("mostrarcontenido");
+ });
+
+ $("#ocultar14").click(function(event){
+  $(".contenidotexto14").removeClass("mostrarcontenido");
+     
+ });
+ $("#mostrar15").click(function(){
+   $(".contenidotexto15").addClass("mostrarcontenido");
+ });
+
+ $("#ocultar15").click(function(event){
+  $(".contenidotexto15").removeClass("mostrarcontenido");
+     
+ });
+
+
+
+
+
+
+
 
 
 
