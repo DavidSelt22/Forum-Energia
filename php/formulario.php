@@ -47,7 +47,7 @@ die();
 
   //Enviar el correo
 	if(mail($destino, $asunto, $email_message, $headers)){
-		echo "Correo enviado";
+		echo "En breve confirmaremos su participación";
 	}else{
 		echo "Error de envio";
 	}
