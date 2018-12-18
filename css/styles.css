@@ -1399,12 +1399,16 @@ form .row .filas .submit{
 	opacity: 1;
 }
 
+.form2{display: none;}
+
 form .row .filas .submit:hover{
 	opacity: .8;
 	transition: all .5s;
 }
 
 @media(max-width: 414px){
+    .form1{display: none;}
+    .form2{display: block;}
 	form{margin-top: 3%;}
 	form .row{margin: 0px;}
 	.filas{
